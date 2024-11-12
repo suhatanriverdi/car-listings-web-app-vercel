@@ -11,6 +11,13 @@ const Login = () => {
         className="w-full max-w-xs bg-white"
       >
         <h2 className="text-center mb-[4rem]">Log In</h2>
+        <h2 className="text-center text-sm mb-[1rem]">You can type</h2>
+        <h2 className="text-center text-sm">
+          username: <span className="font-normal">user</span>
+        </h2>
+        <h2 className="text-center text-sm mb-[1rem]">
+          password: <span className="font-normal">user</span>
+        </h2>
 
         <div className="mb-[0.5rem]">
           <label htmlFor="username" className="text-gray-700 mb-1">
